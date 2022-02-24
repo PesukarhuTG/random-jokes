@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random wishes</title>
+  <link rel="icon" href="assets/img/favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="index.js" type="module"></script>
+</head>
+
+<body>
+  <div class="overflow">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+
+    <header>
+      <section class="header">
+        <div class="header-lang">
+          <button class="btn-lang btn-ru active" data-lang="ru">RU</button>
+          <button class="btn-lang btn-en" data-lang="en">EN</button>
+        </div>
+        <div class="header-content">
+          <h1 class="header-logo">Magic Ball</h1>
+          <p class="header-description" data-i18="title">Узнай, что ждет тебя сегодня!</p>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="wish">
+        <div class="wish-content">
+          <div class="wish-img">
+            <img class="current-img" src="assets/img/magic-ball.png" alt="prediction">
+          </div>
+          <button class="wish-button" data-i18="wishBtn">Получить предсказание</button>
+          <div class="wish-info">
+            <span class="wish-info-item wish-text"></span>
+            <img class="wish-info-item cursor" src="assets/img/cursor.gif" width="5">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer">
+        <div class="copyright">
+          <span class="copyright__item copyright__sign">©</span>
+          <span class="copyright__item copyright__year">2022</span>
+          <a class="copyright__item copyright__link" href="https://github.com/PesukarhuTG"
+            target="_blank">pesukarhutg</a>
+        </div>
+        <a class="logo-link" href="https://rs.school/js-stage0/" target="_blank">
+          <svg class="icon icon-rss">
+            <use xlink:href="assets/svg/sprite.svg#icon-rss"></use>
+          </svg>
+        </a>
+      </section>
+    </footer>
+    <p class="random-text random-01 fade_one">Тебя ожидает чудесный день...</p>
+    <p class="random-text random-02 fade_second">Близкие всегда поддержат...</p>
+    <p class="random-text random-03 fade_third">Работы будет много, но скоро пятница!</p>
+  </div>
+</body>
+
+</html>
